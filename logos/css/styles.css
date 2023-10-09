@@ -1,0 +1,18 @@
+.columna {
+    width: 30%; /* Ancho de cada columna */
+    float: left; /* Hace que las columnas se alineen horizontalmente */
+    margin: 10px; /* Espacio entre las columnas */
+    text-align: center; /* Centra el contenido horizontalmente */
+    background-color: #f2f2f2; /* Color de fondo de las columnas */
+    padding: 20px; /* Espacio interno en las columnas */
+    box-sizing: border-box; /* Incluye el espacio del padding en el ancho total */
+}
+
+.columna h3 {
+    font-size: 1.5rem; /* Tamaño del texto del encabezado */
+}
+
+.columna img {
+    width: 100%; /* Ajusta la imagen al ancho de la columna */
+    height: auto; /* Mantiene la proporción de aspecto de la imagen */
+}

@@ -317,6 +317,23 @@
 		border-top: 1px solid rgba(0,0,0,0.08);
 	}
 
+	.cotxe {
+		animation: example 3s  infinite;
+		animation-duration: 4s;
+		position: absolute;
+		bottom: 15%;
+	  }
+	  
+	  @keyframes example {
+		0% {
+			left: 0;
+		}
+		100% {
+			left: calc(100% - 100px);
+		}
+	  }
+	
+
 /*********************************************************************************/
 /* Page                                                                          */
 /*********************************************************************************/
@@ -431,3 +448,14 @@
 		font-size: 1.2em;
 		color: #FFF;
 	}
+
+	.box a:hover {
+		transform: rotate(360deg); /* Rota la imagen 360 grados al hacer hover en la imagen */
+		transition: transform 1s; /* Agrega una transición suave para la rotación */
+	}
+	
+	.box a:hover + span {
+		color: grey; /* Cambia el color del texto del <span> al hacer hover en la imagen */
+		transition: color 0.5s; /* Agrega una transición suave para el cambio de color */
+	}
+

@@ -455,7 +455,11 @@
 	}
 	
 	.box a:hover + span {
-		color: grey; /* Cambia el color del texto del <span> al hacer hover en la imagen */
+		color: black; /* Cambia el color del texto del <span> al hacer hover en la imagen */
 		transition: color 0.5s; /* Agrega una transición suave para el cambio de color */
+	}
+
+	#page a.button:hover {
+		background-color: #000000;
 	}
 
